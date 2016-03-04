@@ -65,7 +65,7 @@ public class Collision : MonoBehaviour {
 			Ads.adCount++;
 
 			if(Social.localUser.authenticated){
-				Social.ReportScore(ScoreScript.HighScore,"CgkI4Zz_mr8IEAIQBg",(bool success) => {
+				Social.ReportScore(ScoreScript.HighScore,"ID",(bool success) => {
 				});
 			}
 
